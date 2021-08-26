@@ -1,0 +1,15 @@
+eclipse.preferences.version=1
+encoding//WebContent/View/Admin/Dashboard.jsp=UTF-8
+encoding//WebContent/View/Client/Footer.jsp=UTF-8
+encoding//src/Controller/BuyServlet.java=UTF-8
+encoding//src/Controller/ChangePwdServlet.java=UTF-8
+encoding//src/Controller/DashboardServlet.java=UTF-8
+encoding//src/Controller/EditBookServlet.java=UTF-8
+encoding//src/Controller/HomeAdminForward.java=UTF-8
+encoding//src/Controller/InvoiceManagerForward.java=UTF-8
+encoding//src/Controller/LoginServlet.java=UTF-8
+encoding//src/Controller/OrderServlet.java=UTF-8
+encoding//src/Controller/PaymentOrderForward.java=UTF-8
+encoding//src/Controller/PurchaseHistoryForward.java=UTF-8
+encoding//src/Controller/RegisterServlet.java=UTF-8
+encoding//src/Controller/UpLoadBookServlet.java=UTF-8

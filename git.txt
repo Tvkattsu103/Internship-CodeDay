@@ -1,0 +1,16 @@
+git status
+git diff
+
+git branch
+git checkout
+
+git pull origin
+
+git commit -a -m "first commit"
+
+git push origin
+
+git merge
+git fetch all
+
+git restore

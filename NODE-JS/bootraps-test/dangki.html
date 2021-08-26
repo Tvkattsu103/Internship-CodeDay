@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Thư viện-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!--Icon-->
+    <link rel="icon" href="./public/imgs/icon/icon.png" type="image/x-icon">
+    <!--CSS-->
+    <link href="./public/css/style-dangki.css" rel="stylesheet" type="text/css">
+    <!--JS-->
+    <script src="./public/js/js-dangki.js"></script>
+    <title>Đăng ký</title>
+    <!--Bootstrap-->
+<!-- 
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css"> -->
+
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="container-login100"
+            style="background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url('public/imgs/dangki/dangki.png');">
+            <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" style="background:none;">
+                <form class="login100-form validate-form" method="post" action="./public/dangki" enctype="multipart/form-data">
+                    <span class="login100-form-title p-b-49" style="color: #fff;">Sign Up</span>
+                    <div id="signupalert" style=" <%if (!data || !data.error){%>display:none;<% } %> "
+                        class="alert alert-danger">
+                        <p>Error:</p>
+
+                        <%if (data && data.error) {%>
+                            <span>
+                                <%= data.error %>
+                            </span>
+                            <%}%>
+                    </div>
+                    <!-- Full Name -->
+                    <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Full Name" name="fullname" id="fullname" autofocus>
+                    </div>
+                    <!-- Username -->
+                    <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Username" name="username" id="username">
+                    </div>
+
+                    <div class="textbox">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="Password" name="password" id="password">
+                    </div>
+                    <!-- Confirm Pass -->
+                    <div class="textbox">
+                        <i class="fa fa-lock" aria-hidden="true"></i>
+                        <input type="password" placeholder="Confirm Password" name="cfpassword" id="cfpassword">
+                    </div>
+                    <!-- Thông tin riêng -->
+                    <div class="radio-button" id="gender">
+                        <h3>Giới tính</h3>
+                        <label class="container">Nam
+                            <input type="radio" name="gender" value="Nam" checked="checked">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Nữ
+                            <input type="radio" name="gender" value="Nữ">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                    <!-- Upload hình ảnh -->
+                    <div class="upload-img">
+                        <input type="file" name="image" id="image">
+                        <img src="" id="myImg" alt="">
+                    </div>
+
+                    <button class="btn">Sign up</button>
+
+
+                </form>
+                <a href="./public/dangnhap"><input type="button" class="btnbh" value="Đã có tài khoản"></a>
+                <a href="./public/"><input type="button" class="btnbh" value="Trở về trang chủ"></a>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

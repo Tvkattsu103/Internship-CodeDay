@@ -1,0 +1,29 @@
+@charset "ISO-8859-1";
+.img-film{
+	width: 90%;
+	height: 250px;
+}
+.card-title{
+	height: 40px;
+}
+.pagination-position{
+	margin-right: 100px;
+}
+.dropdown-inline{
+	display:inline!important;
+}
+.menu-box{
+	min-width: 100px!important;
+}
+.dropdown-menu{
+	color: white !important;
+	margin: auto;
+	opacity: 90%;
+	width: 100px;
+}
+.list-div div, .pagination li{
+	cursor: pointer!important;
+}
+.card{
+	min-width: 240px;
+}

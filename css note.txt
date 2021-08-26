@@ -1,0 +1,21 @@
+* Icon *
+Themify
+
+- text-decoration : line-through //gạch ngang dòng chữ 
+vd: giá trước khi giảm
+- object-fit: contain và background-size: contain //điều chỉnh kích thước ảnh khi bị tác động bên ngoài
+vd: ảnh dóng theo cross axis khi dùng flex
+- will-change: opacity, translate //khi dùng 2 thuộc tính keyframe
+- user-select: none //ko cho người dùng copy dòng chữ trên web
+- grid { width: 1200px; max-width: 100%}
+- box-sizing: border-box //chứa padding mà ko làm thay đổi hay tràn thẻ div
+- ::before { top: 50%; border-left: 1px...; transform: translateY(-50%); } tạo gạch nhỏ phân cách (life trick)
+- navbar height ko ôm gọn div -> kiểm tra line-height
+- li {flex-shrink: 0;} : khi độ rộng của container nhỏ làm các item bị co lại -> tùy chỉnh theo độ rộng của item
+- a {display: block;} : dùng cho thẻ a, không theo kích thước height và width
+- :nth-child(3n+1) & :nth-child(3n+2) & :nth-child(3n+3) : css lặp lại, sau 3 thẻ đầu thì các thẻ sau cứ lặp lại css như trc
+- height = 2 line-height : khi box có 2 dòng chữ
+- display: -webkit-box -> tạo dấu 3 chấm
+vd: {display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2;}
+- overflow-x: auto -> tạo thanh kéo ngang khi tràn item
+- -webkit-tab-hightlight...: none; -> tắt hiệu ứng khi click 

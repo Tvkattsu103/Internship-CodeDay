@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Thư viện--> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,600;1,700&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!--Icon-->
+    <link rel = "icon" href = "/imgs/icon/icon.png"  type = "image/x-icon">
+    <!--CSS-->
+    <link href="/css/style-tiengnhat.css" rel="stylesheet" type="text/css">
+    <!--JS-->
+    <script src="/js/js-tiengnhat.js"></script>
+    <title>Tiếng Nhật</title>
+</head>
+<body>
+    <%- include('./_layouts/header')-%>
+        <div class="text-box">
+            <h1>Cùng Học Tiếng Nhật Thôi Nào!!!!</h1>
+            <p>Bắt đầu chưa bao giờ là muộn, hãy ghé thăm chúng tớ mỗi ngày nhé.</p>
+            <a href="#content_mid" class="hero-btn">Học thôi nào</a>
+        </div>
+    </section>
+   <!-- content_mid -->
+    <section id="content_mid" class="content_mid">
+        <div class="hoctiengnhat">
+            <div class="htnleft">
+                <p>Học tiếng Nhật</p>
+                <div class="capdo">
+                    <h3>Cấp độ</h3>                
+                    <li class="active" onclick="gettiengnhat()">Người mới</li>
+                    <li>N5</li>
+                    <li>N4</li>
+                    <li>N3</li>
+                    <li>N2</li>
+                    <li>N1</li>
+
+                </div>
+
+            </div>
+                <iframe id="gettiengnhat"  class="htnright"  src="./trangchu.ejs"></iframe>
+        </div>
+    </section>
+    
+    <%- include('./_layouts/footer')-%> 
+</body> 
+</html>

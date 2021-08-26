@@ -1,0 +1,137 @@
+/*!
+ * Start Bootstrap - Shop Homepage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* body {
+    padding-top: 80px; Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes.
+} */
+.thumbnail-item h4 {
+	color: black;
+	transition: 0.3s;
+	opacity: 0.5;
+}
+
+.thumbnail-item h4:hover {
+	opacity: 1;
+}
+.content_title {
+	padding-top: 10px;
+    text-align: center;
+    height: 70px;
+    margin-bottom: 10px;
+}
+.content_title > .child_item {
+    display:inline-flex;
+}
+.content_title ul li.title__item{
+	height: 55px;
+    padding-top: 20px;
+    font-size: 2.0em;
+    color: #2267AF;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+.slide-image {
+    width: 100%;
+}
+
+.carousel-holder {
+    margin-bottom: 30px;
+}
+
+.carousel-control,
+.item {
+    border-radius: 4px;
+}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.caption h4 {
+    white-space: nowrap;
+}
+
+.thumbnail img {
+    width: 170px;
+    
+}
+
+.ratings {
+    padding-right: 10px;
+    padding-left: 10px;
+    color: #d17581;
+}
+/* Home */
+#back2Top {
+	width: 40px;
+	line-height: 40px;
+	overflow: hidden;
+	z-index: 999;
+	display: none;
+	cursor: pointer;
+	-moz-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	transform: rotate(270deg);
+	position: fixed;
+	bottom: 50px;
+	right: 0;
+	background-color: #51c2d5;
+	color: #555;
+	text-align: center;
+	font-size: 30px;
+	text-decoration: none;
+	transition: .3s;
+}
+
+#back2Top:hover {
+	background-color: #ff9292;
+	color: #000;
+}
+
+.pagination-container {
+	display: inline-block;
+}
+
+.pagination a {
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+
+.pagination a.active {
+	background-color: #a1cae2;
+	color: white;
+	border-radius: 5px;
+}
+
+.b-main___category-arrow {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: 2px;
+	vertical-align: middle;
+	border-top: 19px solid transparent;
+	border-left: 12px solid #337ab7;
+	border-right: 0px solid transparent;
+	border-bottom: 20px solid transparent;
+	position: absolute;
+	top: 0;
+	right: -12px;
+}
+/*  */
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #333;
+}
+
+footer {
+    margin: 20px;
+}

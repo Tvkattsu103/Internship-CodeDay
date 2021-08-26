@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>BookStore</display-name>
+  <welcome-file-list>
+    <welcome-file>HomeForward</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>HomeForward</servlet-name>
+    <servlet-class>Controller.HomeForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeForward</servlet-name>
+    <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>InvoiceManagerForward</servlet-name>
+    <servlet-class>Controller.InvoiceManagerForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>InvoiceManagerForward</servlet-name>
+    <url-pattern>/Invoice</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>LoginForward</servlet-name>
+    <servlet-class>Controller.LoginForward</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginForward</servlet-name>
+    <url-pattern>/Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>BookWebServlet</servlet-name>
+    <servlet-class>Controller.BookWebServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookWebServlet</servlet-name>
+    <url-pattern>/Book</url-pattern>
+  </servlet-mapping>
+</web-app>
